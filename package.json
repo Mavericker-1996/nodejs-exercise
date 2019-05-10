@@ -4,7 +4,8 @@
   "description": "Nodejs tutorial exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Mavericker-1996/nodejs-exercise/issues"
   },
-  "homepage": "https://github.com/Mavericker-1996/nodejs-exercise#readme"
+  "homepage": "https://github.com/Mavericker-1996/nodejs-exercise#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
